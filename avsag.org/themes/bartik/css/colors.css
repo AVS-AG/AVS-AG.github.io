@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body, body.overlay { color: rgb(59, 59, 59); }
+
+.comment .comment-arrow { border-color: rgb(255, 255, 255); }
+
+#page, #main-wrapper, #main-menu-links li a.active, #main-menu-links li.active-trail a { background: rgb(255, 255, 255); }
+
+.tabs ul.primary li a.active { background-color: rgb(255, 255, 255); }
+
+.tabs ul.primary li.active a { background-color: rgb(255, 255, 255); border-bottom: 1px solid rgb(255, 255, 255); }
+
+#header { background-color: rgb(72, 169, 228); background-image: -webkit-linear-gradient(top, rgb(7, 121, 191) 0%, rgb(72, 169, 228) 100%); }
+
+a { color: rgb(0, 113, 179); }
+
+a:hover, a:focus { color: rgb(1, 143, 226); }
+
+a:active { color: rgb(35, 174, 255); }
+
+.sidebar .block { background-color: rgb(246, 246, 242); border-color: rgb(249, 249, 249); }
+
+#page-wrapper, #footer-wrapper { background: rgb(41, 41, 41); }
+
+.region-header, .region-header a, .region-header li a.active, #name-and-slogan, #name-and-slogan a, #secondary-menu-links li a { color: rgb(255, 254, 255); }

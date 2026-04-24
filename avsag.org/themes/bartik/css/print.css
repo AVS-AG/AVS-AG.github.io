@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+body, input, textarea, select { color: rgb(0, 0, 0); background: none; }
+
+body.two-sidebars, body.sidebar-first, body.sidebar-second, body { width: 640px; }
+
+#sidebar-first, #sidebar-second, .navigation, #toolbar, #footer-wrapper, .tabs, .add-or-remove-shortcuts { display: none; }
+
+.one-sidebar #content, .two-sidebars #content { width: 100%; }
+
+#triptych-wrapper { width: 960px; margin: 0px; padding: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; }
+
+#triptych-first, #triptych-middle, #triptych-last { width: 250px; }
+
+#comments .title, #comments form, .comment_forbidden { display: none; }
